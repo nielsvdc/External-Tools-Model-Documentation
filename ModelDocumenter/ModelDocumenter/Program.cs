@@ -219,13 +219,13 @@ namespace ModelDocumenter
                 // Get Dax.Model object from the SSAS engine
                 //
                 Log("[INFO] Get Dax.Model object from the SSAS engine", logFile);
-                Dax.Metadata.Model model = Dax.Metadata.Extractor.TomExtractor.GetDaxModel(serverName, databaseName, applicationName, applicationVersion);
+                Dax.Metadata.Model model = Dax.Model.Extractor.TomExtractor.GetDaxModel(serverName, databaseName, applicationName, applicationVersion);
 
                 //
                 // Get TOM model from the SSAS engine
                 //
                 Log("[INFO] Get TOM model from the SSAS engine", logFile);
-                Microsoft.AnalysisServices.Tabular.Database database = includeTomModel ? Dax.Metadata.Extractor.TomExtractor.GetDatabase(serverName, databaseName) : null;
+                Microsoft.AnalysisServices.Tabular.Database database = includeTomModel ? Dax.Model.Extractor.TomExtractor.GetDatabase(serverName, databaseName) : null;
 
                 // 
                 // Create VertiPaq Analyzer views

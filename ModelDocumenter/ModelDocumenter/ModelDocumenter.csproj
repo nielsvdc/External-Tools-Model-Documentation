@@ -98,10 +98,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="CommandLineParser" Version="2.9.1" />
-    <PackageReference Include="Dax.Metadata" Version="1.4.2" />
-    <PackageReference Include="Dax.Model.Extractor" Version="1.4.2" />
-    <PackageReference Include="Dax.ViewVpaExport" Version="1.4.2" />
-    <PackageReference Include="Dax.Vpax" Version="1.4.2" />
+    <PackageReference Include="Dax.Metadata" Version="1.9.0" />
+    <PackageReference Include="Dax.Model.Extractor" Version="1.9.0" />
+    <PackageReference Include="Dax.ViewVpaExport" Version="1.9.0" />
+    <PackageReference Include="Dax.Vpax" Version="1.9.0" />
     <PackageReference Include="Microsoft.AnalysisServices.AdomdClient.retail.amd64" Version="19.84.1" />
     <PackageReference Include="Microsoft.AnalysisServices.retail.amd64" Version="19.84.1" />
     <PackageReference Include="System.Buffers" Version="4.6.0" />
