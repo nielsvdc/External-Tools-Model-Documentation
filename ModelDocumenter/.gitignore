@@ -21,6 +21,7 @@ _nuget\
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
+[Dd]ebugInstall/
 x64/
 x86/
 [Aa][Rr][Mm]/
